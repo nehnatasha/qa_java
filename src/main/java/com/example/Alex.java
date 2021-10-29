@@ -9,7 +9,7 @@ public class Alex extends Lion {
     }
 
     @Override
-    public int getKittens() {
+    public int getKittens(Feline feline) {
         return feline.getKittens(0);
     }
 
