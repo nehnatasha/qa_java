@@ -21,7 +21,6 @@ public class CatTest {
     public void getFood() throws Exception {
         Feline feline = new Feline();
         Cat cat = new Cat(feline);
-
         List<String> actual = cat.getFood();
         assertEquals(List.of("Животные", "Птицы", "Рыба"), actual);
     }
